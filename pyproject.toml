@@ -1,0 +1,14 @@
+[project]
+name = "pyro-ai"
+version = "0.1.0"
+description = "Starter scaffold for the Pyro-AI assistant."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Pyro-AI Team" }]
+dependencies = [
+    "Pillow>=10.0.0",
+    "imageio>=2.34.0",
+]
+
+[project.scripts]
+pyro-ai = "pyro_ai.cli:main"
